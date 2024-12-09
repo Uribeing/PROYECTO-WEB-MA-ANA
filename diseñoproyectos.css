@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: darkred;
+
+}
+
+:root {
+    --amarillo: rgb(255, 230, 0);
+    --negro: rgb(0, 0, 0);
+}
+
+*::selection {
+    color: rgb(228, 202, 202);
+    background-color: darkred;
+}
+
+.sesion-fotos {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1.875rem;
+    padding-left: 5.625rem;
+}
+
+/*AUTOSCROLL*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: var(--amarillo);
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: darkred;
+}
+
+
+.sesion-fotos img {
+    transition: all 0.5s;
+
+
+}
+
+.sesion-fotos img:hover {
+    transform: scale(0.9);
+}
+
+
+/*ORDEN*/
+
+
+
+
+
+h1,
+h5 {
+    background-color: black;
+    color: var(--amarillo);
+    box-sizing: border-box;
+    text-align: center;
+}

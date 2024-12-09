@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  text-align: center;
+  background-color: darkred;
+
+}
+
+*::selection {
+  color: rgb(228, 202, 202);
+  background-color: darkred;
+}
+
+:root {
+  --amarillo: rgb(255, 230, 0);
+  --negro: rgb(0, 0, 0);
+}
+
+/*Scrollbar w3bschool*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: var(--amarillo);
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: darkred;
+}
+
+/*TEXTO*/
+
+h1 {
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
+  background-color: black;
+  color: var(--amarillo);
+}

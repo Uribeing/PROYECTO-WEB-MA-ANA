@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+
+}
+
+*::selection {
+  color: rgb(228, 202, 202);
+  background-color: rgb(90, 0, 0);
+}
+
+:root {
+  --amarillo: rgb(255, 230, 0);
+  --negro: rgb(0, 0, 0);
+}
+
+/*Scrollbar w3bschool*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: var(--amarillo);
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: darkred;
+}
+
+h1 {
+  text-align: center;
+  padding: 1.25rem;
+  background-color: black;
+  color: rgb(255, 225, 0);
+}
+
+
+/*Tabla decorar*/
+.buu {
+  background-color: orangered;
+}
+
+.wuu {
+  background-color: green;
+}
+
+table {
+  background-image:
+    linear-gradient(to bottom,
+      rgb(255, 255, 81), rgb(255, 140, 40));
+  border-collapse: collapse;
+  border: 3px solid black;
+  margin: auto;
+  width: 70%;
+  margin-top: 50px;
+  caption-side: bottom;
+  color: rgb(0, 0, 0);
+}
+
+caption {
+  margin: 10px;
+}
+
+th {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+}
+
+
+.oscars {
+  padding-left: 18.75rem;
+  background-color: darkred;
+}

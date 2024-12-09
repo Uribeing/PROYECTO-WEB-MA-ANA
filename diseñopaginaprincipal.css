@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+
+*::selection {
+    color: rgb(228, 202, 202);
+    background-color: darkred;
+    }
+:root {
+    --amarillo: rgb(255, 230, 0);
+    --negro: rgb(0, 0, 0);
+}
+/*Scrollbar w3bschool*/
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--amarillo);
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: darkred;
+  }
+  
+
+/*ENCABEZADO*/
+
+
+.elname {
+    padding: 1.25rem;
+}
+
+.encabezao {
+    background-color: var(--negro)
+}
+
+/*HEADER*/
+
+.encabezao {
+    max-width: 125rem;
+    margin: 0 auto;
+}
+
+.toda-cabeza {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usuario {
+    margin-right: 3.125rem;
+    cursor: pointer;
+}
+
+.high {
+    display: flex;
+    gap: 3.125rem;
+}
+
+/*MENU*/
+
+.menu-bar-busq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.busquedadiv {
+    display: flex;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    flex-direction: row;
+    padding-left: 1.25rem;
+}
+
+.nav {
+    background-color: rgb(81, 7, 7);
+}
+
+.texto-menu {
+    display: flex;
+    gap: 31.25rem;
+
+}
+
+.menu {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 1.25rem;
+
+}
+
+.menu li {
+    list-style: none;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--amarillo);
+    position: relative;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.fa-bars {
+    cursor: pointer;
+}
+
+
+/*.busqueda{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    border: 2rem solid white;
+    background-color: white;
+    background-color: white;
+    height: .3125rem;
+}
+
+.busqueda input{
+    outline: none;
+    border: none;
+    width: 25rem;
+    color: black;
+}*/
+
+/*HTML BUSQUEDA
+<div class="busquedadiv">
+                        <form class="busqueda">
+                            <input type="search" placeholder="Buscar...">
+                            <button class="btn-search">
+                                <i class="fa-solid fa-magnifying-glass" style="color: #FFD43B;"></i>
+                            </button>*/
+
+
+
+/*BANNER*/
+.banner {
+    background-image: url(./Imagenes+/Composición\ de\ elementos\ cinematográficos\ con\ espacio\ de\ copia_\ _\ Foto\ Premium.jpg);
+    height: 31.25rem;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.imagen1{
+    max-width: 90rem;
+    margin: 0 auto;
+    text-align: right;
+    padding-top: 6.25rem;
+    padding-right: 3.125rem ;
+}
+
+.imagen1 p{
+color: black;
+font-size: 1.2rem;
+margin-bottom: 1rem;
+font-weight: 500;
+}
+
+.imagen1 h2{
+    color: rgb(152, 0, 0);
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+
+}
+
+.imagen1 a{
+    margin-top: 2rem;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+
+}
+
+
+/*MARCAS*/
+
+.marcas{
+    background-color: black;
+   color: var(--amarillo);
+   padding-top: 5rem;
+   text-align: center;
+    
+}
+
+.logos-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 9.375rem;
+    padding-top: 1.5625rem;
+    padding-bottom: 1.25rem;
+    gap: 1.25rem
+}
+
+/*PRESENTACIÓN*/
+
+.Presentación{
+    background-color: black;
+    display: flex;
+    gap: 3.125rem;
+    padding-bottom: 1.25rem;
+}
+
+.titulo-press{
+background-color: black;
+color: var(--amarillo);
+text-align: center;
+padding-bottom: 1.25rem;
+}
+
+.Presentación p{
+    color: white;
+    padding-left: 6.25rem ;
+    padding-right: 6.25rem;
+    padding-top: 1.25rem;
+    font-size: larger;
+    text-align: center;
+   
+}
+
+
+/* PROYECTOS SERVICIOS Y EVENTOS */
+
+.ventanas-emerg{
+    background-color: var(--amarillo);
+    display: flex;
+    gap: 3.125rem;
+ padding-left: 15.625rem;
+ padding-top: 3.75rem;
+ padding-bottom: 3.125rem;
+ color: var(--amarillo);
+
+}
+.ventanas-emerg img{
+    transition: all 0.5s;
+    border: black solid;
+   
+}
+
+.ventanas-emerg img:hover{
+    transform: scale(0.9);
+}
+
+
+/*FOOTER*/
+footer{
+    background-color: black;
+}
+
+footer h2{
+    text-align: center;
+    color: white;
+    padding-bottom: 1.875rem;
+    padding-top: 1.25rem;
+}
+
+.contactarnos{
+   display: flex;
+   align-content: space-around;
+   flex-wrap: wrap;
+}
